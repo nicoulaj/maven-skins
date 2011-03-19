@@ -30,9 +30,13 @@
   <packaging>pom</packaging>
 
   <name>Maven skins</name>
-  <inceptionYear>2011</inceptionYear>
-  <description><![CDATA[Maven skins.]]></description>
   <url>http://nicoulaj.github.com/maven-skins</url>
+  <inceptionYear>2011</inceptionYear>
+  <description>
+    <![CDATA[
+      A collection of Maven skins.
+    ]]>
+  </description>
 
   <scm>
     <url>http://github.com/nicoulaj/maven-skins</url>
@@ -64,6 +68,10 @@
     </site>
   </distributionManagement>
 
+  <modules>
+    <module>maven-default-greyscale-skin</module>
+  </modules>
+
   <build>
     <extensions>
       <extension>
@@ -87,42 +95,19 @@
   <reporting>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>taglist-maven-plugin</artifactId>
-        <version>${taglist-maven-plugin.version}</version>
-        <configuration>
-          <tagListOptions>
-            <tagClasses>
-              <tagClass>
-                <displayName>TODO tags</displayName>
-                <tags>
-                  <tag>
-                    <matchString>todo</matchString>
-                    <matchType>ignoreCase</matchType>
-                  </tag>
-                </tags>
-              </tagClass>
-              <tagClass>
-                <displayName>FIXME tags</displayName>
-                <tags>
-                  <tag>
-                    <matchString>fixme</matchString>
-                    <matchType>ignoreCase</matchType>
-                  </tag>
-                </tags>
-              </tagClass>
-            </tagClasses>
-          </tagListOptions>
-        </configuration>
-      </plugin>
-      <plugin>
-        <artifactId>maven-changelog-plugin</artifactId>
-        <version>${maven-changelog-plugin.version}</version>
-        <configuration>
-          <displayChangeSetDetailUrl>${project.scm.url}/commit/%REV%</displayChangeSetDetailUrl>
-          <displayFileDetailUrl>${project.scm.url}/tree/master/%FILE%</displayFileDetailUrl>
-          <displayFileRevDetailUrl>${project.scm.url}/blob/%REV%/%FILE%</displayFileRevDetailUrl>
-        </configuration>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>${maven-project-info-reports-plugin.version}</version>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>index</report>
+              <report>project-team</report>
+              <report>issue-tracking</report>
+              <report>license</report>
+              <report>scm</report>
+            </reports>
+          </reportSet>
+        </reportSets>
       </plugin>
     </plugins>
   </reporting>
