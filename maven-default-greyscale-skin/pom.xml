@@ -26,10 +26,6 @@
 
   <artifactId>maven-default-greyscale-skin</artifactId>
   <name>Default greyscale skin</name>
-  <description>
-    <![CDATA[
-      A greyscale variation of Maven's default skin.
-    ]]>
-  </description>
+  <description>A greyscale variation of Maven's default skin</description>
 
 </project>

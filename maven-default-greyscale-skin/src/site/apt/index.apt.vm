@@ -22,7 +22,7 @@
 
 ${project.name}
 
-  ${project.description}
+  The ${project.name} is a skin for Maven generated sites. It is a greyscale version of the default skin.
 
   The site you are currently seeing is generated using this skin.
 

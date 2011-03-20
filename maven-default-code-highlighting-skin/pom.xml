@@ -26,10 +26,6 @@
 
   <artifactId>maven-default-code-highlighting-skin</artifactId>
   <name>Default skin with code highlighting</name>
-  <description>
-    <![CDATA[
-      Maven's default skin, with syntax highlighting of the code blocks.
-    ]]>
-  </description>
+  <description>Maven's default skin, with syntax highlighting of the code blocks</description>
 
 </project>

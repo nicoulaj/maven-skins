@@ -45,6 +45,7 @@
     </head>
 
     <menu ref="parent"/>
+    <menu name="Project" ref="reports"/>
 
   </body>
 
