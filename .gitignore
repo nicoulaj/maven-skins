@@ -12,3 +12,6 @@ release.properties
 .project
 .classpath
 .settings
+
+# Local/draft stuff
+tmp/
