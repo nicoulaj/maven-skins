@@ -69,6 +69,7 @@
   </distributionManagement>
 
   <modules>
+    <module>maven-default-code-highlighting-skin</module>
     <module>maven-default-greyscale-skin</module>
   </modules>
 
