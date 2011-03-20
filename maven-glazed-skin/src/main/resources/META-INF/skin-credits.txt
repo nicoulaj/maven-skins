@@ -1,0 +1,2 @@
+This skin is based on the Glazed template:
+http://www.freecsstemplates.org/preview/glazed

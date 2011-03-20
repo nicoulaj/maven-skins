@@ -1,0 +1,2 @@
+This skin is based on the 1024px template by Andreas Viklund:
+http://andreasviklund.com/templates/1024px

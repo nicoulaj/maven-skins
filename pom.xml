@@ -46,7 +46,7 @@
 
   <issueManagement>
     <system>Github</system>
-    <url>${project.scm.url}/issues</url>
+    <url>http://nicoulaj.github.com/maven-skins/issues</url>
   </issueManagement>
 
   <distributionManagement>
@@ -71,6 +71,8 @@
   <modules>
     <module>maven-default-code-highlighting-skin</module>
     <module>maven-default-greyscale-skin</module>
+    <module>maven-glazed-skin</module>
+    <module>maven-1024px-skin</module>
   </modules>
 
   <build>
