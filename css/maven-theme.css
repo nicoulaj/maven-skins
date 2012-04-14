@@ -67,7 +67,7 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
 h2 {
     padding: 4px 4px 4px 6px;
     border: 1px solid #999;
-    color: #900;
+    color: #555;
     background-color: #ddd;
     font-weight: 900;
     font-size: x-large;
@@ -76,7 +76,7 @@ h2 {
 h3 {
     padding: 4px 4px 4px 6px;
     border: 1px solid #aaa;
-    color: #900;
+    color: #555;
     background-color: #eee;
     font-weight: normal;
     font-size: large;
@@ -85,7 +85,7 @@ h3 {
 h4 {
     padding: 4px 4px 4px 6px;
     border: 1px solid #bbb;
-    color: #900;
+    color: #555;
     background-color: #fff;
     font-weight: normal;
     font-size: large;
@@ -93,7 +93,7 @@ h4 {
 
 h5 {
     padding: 4px 4px 4px 6px;
-    color: #900;
+    color: #555;
     font-size: normal;
 }
 
@@ -151,7 +151,7 @@ dl {
 }
 
 dt {
-    color: #900;
+    color: #555;
 }
 
 #organizationLogo img, #projectLogo img, #projectLogo span {
