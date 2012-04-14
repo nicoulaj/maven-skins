@@ -14,8 +14,18 @@
  * limitations under the License.
  */
 
+body {
+    padding: 0px 0px 10px 0px;
+}
+
+body, td, select, input, li {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
 code {
     font-family: Courier, monospace;
+    font-size: 13px;
 }
 
 a {
@@ -54,7 +64,7 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
     padding-right: 18px;
 }
 
-#bodycol h2 {
+h2 {
     padding: 4px 4px 4px 6px;
     border: 1px solid #999;
     color: #900;
@@ -63,7 +73,7 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
     font-size: x-large;
 }
 
-#bodycol h3 {
+h3 {
     padding: 4px 4px 4px 6px;
     border: 1px solid #aaa;
     color: #900;
@@ -72,7 +82,7 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
     font-size: large;
 }
 
-#bodycol h4 {
+h4 {
     padding: 4px 4px 4px 6px;
     border: 1px solid #bbb;
     color: #900;
@@ -81,16 +91,27 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
     font-size: large;
 }
 
-#bodycol h5 {
+h5 {
     padding: 4px 4px 4px 6px;
     color: #900;
     font-size: normal;
 }
 
-#bodycol p {
+p {
     line-height: 1.3em;
     font-size: small;
-    font-family: inherit;
+}
+
+#breadcrumbs {
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    background-color: #ccc;
+}
+
+#leftColumn {
+    margin: 10px 0 0 5px;
+    border: 1px solid #999;
+    background-color: #eee;
 }
 
 #navcolumn h5 {
@@ -100,22 +121,22 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
     color: #000;
 }
 
-#bodycol table.bodyTable th {
+table.bodyTable th {
     color: white;
     background-color: #bbb;
     text-align: left;
     font-weight: bold;
 }
 
-#bodycol table.bodyTable th, table.bodyTable td {
+table.bodyTable th, table.bodyTable td {
     font-size: 1em;
 }
 
-#bodycol table.bodyTable tr.a {
+table.bodyTable tr.a {
     background-color: #ddd;
 }
 
-#bodycol table.bodyTable tr.b {
+table.bodyTable tr.b {
     background-color: #eee;
 }
 
@@ -123,18 +144,22 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
     border: 1px solid #999;
 }
 
-#bodycol dl {
+dl {
     padding: 4px 4px 4px 6px;
     border: 1px solid #aaa;
     background-color: #ffc;
 }
 
-#bodycol dt {
+dt {
     color: #900;
 }
 
 #organizationLogo img, #projectLogo img, #projectLogo span {
     margin: 8px;
+}
+
+#banner {
+    border-bottom: 1px solid #fff;
 }
 
 .errormark, .warningmark, .donemark, .infomark {
@@ -152,3 +177,4 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
 .infomark {
     background-image: url(../images/icon_info_sml.gif);
 }
+
