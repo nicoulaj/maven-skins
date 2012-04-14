@@ -25,7 +25,7 @@
 
   <groupId>net.ju-n.maven.skins</groupId>
   <artifactId>maven-skins-parent</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Maven skins</name>
