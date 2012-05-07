@@ -48,6 +48,11 @@
     <url>http://nicoulaj.github.com/maven-skins/issues</url>
   </issueManagement>
 
+  <ciManagement>
+    <system>Travis-CI</system>
+    <url>http://travis-ci.org/nicoulaj/maven-skins</url>
+  </ciManagement>
+
   <distributionManagement>
     <downloadUrl>https://oss.sonatype.org/content/groups/public</downloadUrl>
     <repository>
