@@ -1,4 +1,4 @@
-maven-skins [![Build Status](https://secure.travis-ci.org/nicoulaj/maven-skins.png)](http://travis-ci.org/nicoulaj/maven-skins)
+maven-skins [![Build Status](https://buildhive.cloudbees.com/job/nicoulaj/job/maven-skins/badge/icon)](https://buildhive.cloudbees.com/job/nicoulaj/job/maven-skins/)
 ===========
 
 **Custom skins for [Maven](http://maven.apache.org) generated sites.**
