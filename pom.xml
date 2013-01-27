@@ -80,23 +80,18 @@
   </modules>
 
   <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.scm</groupId>
-        <artifactId>maven-scm-provider-gitexe</artifactId>
-        <version>${maven-scm-provider-gitexe.version}</version>
-      </extension>
-      <extension>
-        <groupId>org.apache.maven.scm</groupId>
-        <artifactId>maven-scm-manager-plexus</artifactId>
-        <version>${maven-scm-manager-plexus.version}</version>
-      </extension>
-      <extension>
-        <groupId>org.kathrynhuxtable.maven.wagon</groupId>
-        <artifactId>wagon-gitsite</artifactId>
-        <version>${wagon-gitsite.version}</version>
-      </extension>
-    </extensions>
+    <plugins>
+      <plugin>
+        <artifactId>maven-site-plugin</artifactId>
+        <dependencies>
+          <dependency>
+            <groupId>org.kohsuke</groupId>
+            <artifactId>wagon-gitsite</artifactId>
+            <version>${wagon-gitsite.version}</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+    </plugins>
   </build>
 
   <reporting>
