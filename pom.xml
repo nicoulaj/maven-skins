@@ -25,7 +25,7 @@
 
   <groupId>net.ju-n.maven.skins</groupId>
   <artifactId>maven-skins-parent</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
   <packaging>pom</packaging>
 
   <name>Maven skins</name>
@@ -41,6 +41,7 @@
     <url>http://github.com/nicoulaj/maven-skins</url>
     <connection>scm:git:git@github.com:nicoulaj/maven-skins.git</connection>
     <developerConnection>scm:git:git@github.com:nicoulaj/maven-skins.git</developerConnection>
+    <tag>1.0.2</tag>
   </scm>
 
   <issueManagement>
